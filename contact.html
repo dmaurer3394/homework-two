@@ -5,56 +5,86 @@
   <meta charset="UTF-8">
   <title>Contact Me</title>
   <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="structure.css">
   <link rel="stylesheet" type="text/css" href="contact.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
 
   <title>Dalton Maurer Portfolio</title>
 </head>
 
 <body>
+  <div class="content">
+    <div class="content-inside">
   <header>
 
-    <h1>Dalton Maurer</h1>
-    
-    <nav>
-      <a class="navbar" id="about" href="index.html">About</a>
-      <a class="navbar" id="portfolio" href="portfolio.html">Portfolio</a>
-      <a class="navbar" id="contact" href="contact.html">Contact</a>
-    </nav>
+    <div class="row">
 
+      <div class="col-lg-1"></div>
+      <div class="col-lg-4">
+        <h1 class="red-back">Dalton Maurer</h1>
+      </div>
+      <div class="col-lg-4"></div>
+  
+      <div class="col-lg-3">    
+      <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      </div>
+      </div>  
+    </header>
 
-  </header>
-
-  <div class="container">
-    <h2>Contact</h2>
-    <form>
-      <div>
-        <label for="name">Name</label>
-        <br>
-        <input type="text" name="name" id="name" size="144">
+    <div class="jumbotron">
+      <div class="new-container">
+        <h1 class="display-4 page-head">Contact Me</h1>
+        <hr class="my-4">
+        <div class="form-container">
+        <form>
+            <div>
+              <label for="name">Name</label>
+              <br>
+              <input class="b-margin" type="text" name="name" id="name" size="144">
+            </div>
+            
+            <div>
+              <label for="email">E-mail</label>
+              <br>
+              <input type="text" name="email" id="email" size="144">
+            </div>
+            
+            <div>
+              <label for="message">Message</label>
+              <br>
+              <textarea id="message" name="message" rows="5" cols="146" placeholder="Type Your Message Here" maxlength="250"></textarea>
+            </div>
+            <br>
+            <div>
+              <button class="btn btn-primary" type="submit" value="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+        </div>
+      </div>
+      </div>
       </div>
 
-      <div>
-        <label for="email">E-mail</label>
-        <br>
-        <input type="text" name="email" id="email" size="144">
-      </div>
-
-      <div>
-        <label for="message">Message</label>
-        <br>
-        <textarea id="message" name="message" rows="10" cols="100" placeholder="Type Your Message Here" maxlength="250"></textarea>
-      </div>
-
-      <div>
-        <button type="submit" value="submit">Submit</button>
-      </div>
-    </form>
-  </div>
-
-  <footer>
+  <footer class="footer">
   
     </footer>
 

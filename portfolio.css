@@ -1,47 +1,11 @@
-.project-tile {
-    height: 155px;
-    width: 208px;
-    float: left;
-    margin: 16px 55px;
-    border: 1px;
-    border-style: solid;
-    border-color: #777777;
-    box-shadow: 7px 7px 10px grey
+.card {
+    box-shadow: 5px 5px 10px gray;
 }
 
-.tile-text {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 18px;
-    color: #ffffff;
-    text-align: center;
-    background-color: #4aaaa5;
-    height: 30px;
-    width: 208px;
-    position: relative;
-    top: 12px;
-    padding-top: 12px;
+.card-container {
+    margin-left: 40px;
 }
 
-#tile-1 {
-    background-image: url("scratch_screenshot.jpg")
-}
-
-#tile-2 {
-    background-image: url("tile_2.jpg")
-}
-
-#tile-3 {
-    background-image: url("tile_3.jpg")
-}
-
-#tile-4 {
-    background-image: url("tile_4.jpg")
-}
-
-#tile-5 {
-    background-image: url("tile_5.jpg")
-}
-
-#tile-6 {
-    background-image: url("tile_6.jpg")
+.footer {
+    margin-top: 4px;
 }

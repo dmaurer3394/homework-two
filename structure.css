@@ -1,107 +1,50 @@
-body {
-    background-color: #efefef;
-}
-
 header {
-    background-color: #ffffff;
-    height: 90px;
-    border-bottom: 2px;
-    border-style: solid;
-    border-color: #cccccc;
-
+    margin-bottom: 1rem;
 }
 
-footer {
-    background-color: #666666;
-    height: 60px;
-    border-top: 8px;
-    border-style: solid;
-    border-color: #4aaaa5;
-    position: absolute;
-    bottom: 0;
+.footer {
     width: 100%;
+    height: 50px;
+    margin-top: 73px;
+    background-color: rgb(170, 15, 34);
 }
 
-h1 {
-    height: 66px;
-    width: 284px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    margin: 0px 0px 0px 300px;
-    padding-top: 24px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24pt;
-    font-weight: bold;
-    line-height: 1.1;
-    text-align: center;
+.content {
+    min-height: 100%;
 }
 
-h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24pt;
-    color: #4aaaa5;
-    font-weight: bold;
-    background-color: #ffffff;
-    margin: 30px 30px 0px 30px;
-    padding-bottom: 30px;
-    border-bottom: 2px;
-    border-style: solid;
-    border-color: #cccccc;
-}
-
-nav {
-    /* margin-right: 320px; */
-}
-
-a {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #c2c2c2;
-}
-
-a:active {
-    color: #555555;
-}
-
-.container {
-    background-color: #ffffff;
-    height: 475px;
-    width: 960px;
-    margin: 40px 0px 0px 300px;
-    float: left;
-    border: 1px;
-    border-style: solid;
-    border-color: #dddddd;
+.content-inside {
+    padding: 20px;
+    padding-bottom: 50px;
 }
 
 .navbar {
-    position: absolute;
-    width: 5%;
-    margin-top: 35px;
+    background-color: white !important;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.btn {
+    background-color: rgb(170, 15, 34);
+    border-color: rgb(170, 15, 34);
+}
+
+.btn:hover {
+    background-color: rgb(194, 20, 41);
+}
+
+.red-back {
+    background-color: rgb(170, 15, 34);
+    color: white;
     text-align: center;
-    padding: 0px 20px;
+    padding-bottom: 10px;
+    font-size: 4rem
 }
 
-#about {
-    top: 3px;
-    right: 541px;
+.page-head {
+    margin-top: -50px;
 }
 
-#portfolio {
-    top: 3px;
-    right: 428px;
-    border-left: 1px;
-    border-right: 1px;
-    border-style: solid;
-    border-color: #cccccc;
-    padding: 0px 20px;
-}
-
-#contact {
-    top: 3px;
-    right: 310px;
+.jumbotron {
+    margin: 30px 20px -14px 20px;
 }
