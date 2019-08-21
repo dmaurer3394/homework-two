@@ -25,6 +25,10 @@ header {
 }
 
 .navbar {
+    background-color: rgb(170, 15, 34) !important;
+}
+
+.navbar-top {
     background-color: white !important;
     margin-top: 1rem;
     font-size: 1.25rem;
