@@ -1,3 +1,9 @@
+/* @media screen and (min-width: 576px) and (max-width: 767px) {
+  .centerNav {
+      text-align: center;
+  }      
+} */
+
 header {
     margin-bottom: 1rem;
 }
@@ -19,6 +25,10 @@ header {
 }
 
 .navbar {
+    background-color: rgb(170, 15, 34) !important;
+}
+
+.navbar-top {
     background-color: white !important;
     margin-top: 1rem;
     font-size: 1.25rem;
@@ -38,7 +48,7 @@ header {
     color: white;
     text-align: center;
     padding-bottom: 10px;
-    font-size: 4rem
+    font-size: 4rem;
 }
 
 .page-head {
